@@ -1,0 +1,6 @@
+<div *ngFor="let people of peopleList">
+<h1>{{people.name}}</h1>
+<h2>{{people.age}}</h2>
+<h2>{{people.hobby}}</h2>
+<button (click)="removeCard(people.name)">Delete</button>
+</div>
